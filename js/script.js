@@ -9,7 +9,7 @@ comicsApp.config(function($stateProvider, $urlRouterProvider){
 		url: '/',
 		views: {
 			"container": {
-				templateUrl: "This is the comic-list container",
+				template: "This is the comic-list container",
 			}
 		}
 	})
