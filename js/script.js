@@ -1,15 +1,13 @@
 var comicsApp = angular.module('comicsApp', ['ui.router']);
 
 comicsApp.config(function($stateProvider, $urlRouterProvider){
-	
-	$urlRouterProvider.otherwise('/');
-
+		
 	$stateProvider
-	.state('comics-list', {
-		url: '/',
+	.state('comics-detail', {
+		url: '/:series',
 		views: {
 			"container": {
-				template: "This is the comic-list container",
+				template: "comics-detail template",
 			}
 		}
 	})
