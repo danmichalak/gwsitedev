@@ -4,7 +4,7 @@ comicsApp.config(function($stateProvider, $urlRouterProvider){
 		
 	$stateProvider
 	.state('comics-detail', {
-		url: '/:series',
+		url: '/:comic',
 		views: {
 			"container": {
 				template: "comics-detail template",
