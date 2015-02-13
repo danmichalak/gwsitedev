@@ -1,8 +1,7 @@
-var comicsApp = angular.module('comicsApp', ['ui.router']);
+/*var comicsApp = angular.module('comicsApp', ['ui.router']);
 
 comicsApp.config(function($stateProvider, $urlRouterProvider){
 	
-	//$urlRouterProvider.otherwise('/404');
 	$urlRouterProvider.otherwise('/');
 
 	$stateProvider
