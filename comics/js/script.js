@@ -1,6 +1,6 @@
-var gwSite = angular.module('gwSite', ['ui.router']);
+var comicsApp = angular.module('comicsApp', ['ui.router']);
 
-gwSite.config(function($stateProvider, $urlRouterProvider){
+comicsApp.config(function($stateProvider, $urlRouterProvider){
 	
 	//$urlRouterProvider.otherwise('/404');
 	$urlRouterProvider.otherwise('/');
